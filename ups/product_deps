@@ -9,15 +9,15 @@ fwdir  product_dir config_data
 product         version
 larreco         v09_05_02
 trtis_clients   v19_11c		-	optional
-tensorflow      v1_12_0d	-	optional
+tensorflow      v2_3_1	-	optional
 cetbuildtools   v7_17_01	-	only_for_build
 end_product_list
 
 qualifier     larreco         tensorflow     trtis_clients
-e20:debug     e20:debug      e20:debug      e20:debug
-e20:prof      e20:prof       e20:prof       e20:prof
-e19:debug     e19:debug      e19:debug      e19:debug
-e19:prof      e19:prof       e19:prof       e19:prof
+e20:debug     e20:debug      e20      e20:debug
+e20:prof      e20:prof       e20       e20:prof
+e19:debug     e19:debug      e19      e19:debug
+e19:prof      e19:prof       e19       e19:prof
 c7:debug      c7:debug       -              -
 c7:prof       c7:prof        -              -
 end_qualifier_list
