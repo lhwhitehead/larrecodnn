@@ -30,6 +30,8 @@ art_make(LIB_LIBRARIES larreco_RecoAlg_ImagePatternAlgs_DataProvider
                        ROOT::Minuit2
         )
 
+cet_remove_compiler_flags(CXX -pedantic)
+
 install_headers()
 install_fhicl()
 install_source()

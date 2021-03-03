@@ -9,4 +9,6 @@ art_make(
           ${MF_MESSAGELOGGER}
         )
 
+cet_remove_compiler_flags(CXX -pedantic)
+
 install_source()

@@ -9,6 +9,8 @@ art_make(
       #rt #workaround for larsoft issue 17960
         )
 
+cet_remove_compiler_flags(CXX -pedantic)
+
 install_headers()
 install_source()
 
